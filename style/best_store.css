@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+#content { width:916px;  margin:0 auto; padding-bottom:160px;}
+.tab_menu { padding:9px 0; border:1px solid #eaeaea; border-bottom:2px solid #ff7c98; }
+.tab_menu ul { overflow:hidden; width:838px; margin:0 auto;}
+.tab_menu li { float:left;}
+.tab_menu li a { display:block; height:40px; padding:0 22px; margin:0 5px;
+background:url('../images/best_store/bg_customer_tab.png') no-repeat; text-indent:-5000px;}
+.tab_menu .ccm a { width:148px; background-position:0 0;}
+.tab_menu .faq a { width:111px; background-position:-244px 0;}
+.tab_menu .praise a { width:76px; background-position:-453px 0;}
+.tab_menu .voc a { width:145px; background-position:-623px 0;}
+.tab_menu .my-voc a {width:88px; background-position:-823px 6px; }
+
+/* hover */
+.tab_menu a:hover { background-color:#ff7c98}
+.tab_menu .ccm a:hover { background-position:0 -40px;}
+.tab_menu .faq a:hover { background-position:-244px -40px;}
+.tab_menu .praise a:hover { background-position:-453px -40px;}
+.tab_menu .voc a:hover { background-position:-623px -40px;}
+.tab_menu .my-voc a:hover { background-position:-823px -46px; }
+
+.con_head { text-align:center; }
+.con_head h4 {padding:40px 0 10px; }
+.con_head p { padding-bottom:35px; font-size:13px;  border-bottom:1px solid #c6bfb3; }
+.inner_content h5 { height:65px;color:#483834; font-weight:normal; 
+font-size:20px; line-height:65px; text-align:center;}
+.inner_content fieldset { height:50px; margin-top:-65px; padding:15px; text-align:right;}
+.inner_content select { width:150px; height:32px; padding:5px 10px; border:1px solid #d1cecc;   }
+.inner_content .praise {position:relative; padding:35px 150px 35px 190px; border:1px solid #e0d6d1;
+background:url('../images/best_store/icon_praise_detail.png') no-repeat 800px 50%; }
+.inner_content .praise h6 { padding:0 0 2px 45px; 
+background:url('../images/best_store/icon_praise.png') no-repeat; font-size:25px; color:#2f231c; }
+.inner_content .praise h6 span {display:block; color:#948780; font-size:13px; font-weight:normal; }
+
+.list_con li{padding-top:13px;}
+.list_con li:first-child { padding:0;}
+.praise .content_box {overflow:hidden; height:80px; font-size:13px; line-height:1.5; }
+.img_box { overflow:hidden; position:absolute; top:35px; left:35px; width:135px; height:135px; }
+.img_box img { width:100%; }
+.praise .wrap { display:block; position:absolute; top:0; left:0; width:916px; height:204px; }
+
+
+/* 내부 추가 콘텐츠 */
+.modal_praise { overflow:auto; position:fixed; top:0; right:0; bottom:0; left:0; }
+.modal_praise .modal_bg { opacity:0.5; background-color:#000;
+position:fixed; top:0; right:0; bottom:0; left:0;}
+.modal_praise .box_container {position:relative; width:750px; margin:0px auto; }
+.box_container .box_header { padding:20px 35px; background:#ff7c98;}
+.box_container .box_header h3 {padding:0 0 2px 45px; color:#fff; font-weight:normal; font-size:25px;
+background:url(../images/best_store/icon_praise.png) no-repeat 0 0;}
+.box_container .box_header h3 span { display:block; height:18px; color:#87514d; font-size:13px;}
+.box_container .box_body { position:relative; padding:30px 35px 50px 220px; background:#fff;}
+.box_container .box_body h4 {padding-bottom:20px; color:#2f231c; font-weight:normal; font-size:26px;}
+.box_container .box_body p { margin-top:20px; }
+.box_container .box_body .img_box { width:150px; height:100%;}
+.box_container .box_close { position:absolute; top:19px; right:-103px; }
+.modal_praise { display:none; }

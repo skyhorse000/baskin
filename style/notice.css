@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+#content { width:916px; margin:0 auto; padding-bottom:160px;}
+
+
+.inner_content .list_search { text-align:right; }
+.list_search legend { font-size:0; text-indent:-5000px; }
+.list_search select {width:128px; height:34px; margin-right:5px; padding:7px 0; border:1px solid #d1cecc;
+background-color:#fff; color:#636363; }
+.list_search input { width:221px; height:34px; border:0; padding-left:15px;
+background-color:#efefef; font-size:13px; line-height:34px;}
+.list_search button { width:115px; height:34px; border:0; 
+background-color:#d3c1ab; color:#fff; font-size:15px; line-height:35px;}
+.result_num { margin-top:-21px; color:#2f231c; font-size:14px; }
+.result_num span { color:#ff7c98; font-weight:bold; }
+.notice .borad_table {width:100%; margin-top:10px; border-top:2px solid #ff7c98;
+border-spacing:0;  }
+.notice .borad_table td {height:76px; text-align:center;}
+caption {text-indent:-5000px; font-size:0;}
+.notice a { font-size:17px; color:#948780; text-align:left; }
+.notice td { border-bottom:1px solid #dadada; }

@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+#content { width:1200px; margin:0 auto; padding:0 0 160px; }
+.content_tit { padding:133px 0 35px; text-align:center; }
+.content_tit p {padding-top:10px; font-size:20px; }
+
+.inner_content { width:916px; margin:0 auto;}
+.section_login { overflow:hidden; padding:46px 0 47px; border-top:2px solid #ff99bf; border-bottom:1px solid #dadada;}
+.box_login { float:left; width:458px; border-right:1px solid #e1e3e5; }
+.box_login h4 {padding-bottom:20px; font-size:17px; font-weight:17px;  }
+.box_login h4 span { display:block; color:#ff7c98; font-size:18px; font-weight:300;}
+.wrap_login fieldset { position:relative;}
+.wrap_login span { display:block; position:relative; width:248px; }
+.wrap_login input{ display:block;  width:269px; height:49px; padding-left:15px; margin-bottom:9px; 
+border:0 none; color:#696663; font-size:15px; line-height:22px; vertical-align:top;  }
+.wrap_login .fm_box1 input {  background:#efefef url(../images/login/ico_id.png) no-repeat 15px 50%  ;}
+.wrap_login .fm_box2 input {  background:#efefef url(../images/login/ico_pw.png) no-repeat 15px 50%  ;}
+.wrap_login label { position:absolute; top:16px; left:40px; color:#696663; }
+.wrap_login button { position:absolute; top:-6px; right:30px; width:118px; height:118px; 
+border:0 none; background:#f56f98; color:#fff; font-weight:bold; font-size:17px; line-height:59px;}
+.wrap_login ul { padding-top:26px; }
+.wrap_login ul li { float:left; }
+.wrap_login ul .li_1{ width:70px; padding-right:10px; }
+.wrap_login ul .li_2{ width:95px; padding:0 8px 0 15px;  border-left:2px solid #ccc;   }
+.wrap_login ul .li_3{ width:93px; padding-left:10px; border-left:2px solid #ccc;  }
+.wrap_login ul li a { color:#2f231c; text-decoration:none; }
+
+
+
+.box_spc { float:left; width:422px; padding-left:35px; }
+.spc_service { padding-bottom:50px;}
+.spc_service h4 {padding-bottom:7px; font-size:17px; font-weight:normal; color:#2f231c; }
+.spc_service p { color:#948780; }
+
+.notice_service h4 {padding-bottom:7px; font-size:17px;font-weight:normal; color:#2f231c;}
+.notice_service dl dt { float:left; width:73px;  padding:0 0 4px 2px; color:#948780;  }
+.notice_service dl dd {padding-bottom:4px;}
+
+
+
+.section_point {padding-top:30px; }
+.section_point p { padding-bottom:32px; font-size:16px; text-align:center; font-weight:300; color:#2f231c;}
+.benefits_area ul {overflow:hidden;}
+.benefits_area li { float:left; padding-left:103px; height:80px; margin-right:50px; }
+.benefits_area .li_1 {  background:url(../images/login/ico_benefit_1.png) no-repeat;}
+.benefits_area .li_2 {  background:url(../images/login/ico_benefit_2.png) no-repeat;}
+.benefits_area .li_3 {  background:url(../images/login/ico_benefit_3.png) no-repeat;}
+.benefits_area li dl {padding-top:7px;}
+.benefits_area li dl dt {padding-bottom:7px; font-size:17px}
+.benefits_area li dl dd { color:#948780; }

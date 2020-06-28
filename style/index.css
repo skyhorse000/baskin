@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+#content { padding-bottom:160px;}
+
+/* 플레이보 배너 */
+
+.main_banner { position:relative; }
+.flavor_month .top_flavor a { display:block;
+height:150px; border-top:1px solid #999;
+background:#04b7e0 url(../images/main/1562502945.jpg) no-repeat 50% 0; text-indent:-5000px;}
+.flavor_month .flavor_banner { position:absolute;top:0; left:0; width:100%; z-index:30; }
+.flavor_month .flavor_banner a { display:block; height:854px;
+background:#03b6e1 url(../images/main/1562502928.jpg) 50% 0 no-repeat; text-indent:-5000px;
+}
+.inner_banner { overflow:hidden; position:relative; margin:3px auto 0;}
+.swipe { overflow:hidden; position:relative;}
+.swipe_wrap { overflow:hidden; position:relative; height:697px; }
+.swipe_wrap li { width:100%; position:absolute; left:100%; top:0; }
+.swipe_wrap li:first-child { position:absolute; left:0; top:0;  }
+.swipe_wrap li a { display:block; height:697px; }
+.swipe_wrap .banner1 a{ background:#03b6e1 url('../images/main/1562503694.png') no-repeat 50% 0;}
+.swipe_wrap .banner2 a{ background:#89E7E9 url('../images/main/1510107124.jpg') no-repeat 50% 0;}
+.swipe_wrap .banner3 a{ background:#2BDBD8 url('../images/main/1491617009.jpg') no-repeat 50% 0;}
+.swipe_wrap .banner4 a{ background:#AFD1FF url('../images/main/1549363854.png') no-repeat 50% 0;}
+.swipe_wrap .banner5 a{ background:#39D1CF url('../images/main/1562503047.png') no-repeat 50% 0;}
+.swipe_wrap .banner6 a{ background:#58CBB3 url('../images/main/1559813786.png') no-repeat 50% 0;}
+.swipe_wrap .banner7 a{ background:#78BBFF url('../images/main/1491643985.png') no-repeat 50% 0;}
+.swipe_wrap .banner8 a{ background:#3EADDA url('../images/main/1549416308.jpg') no-repeat 50% 0;}
+.swipe_wrap .banner9 a{ background:#F881A2 url('../images/main/1488964252.png') no-repeat 50% 0; }
+.btns button { margin-top:-54px; background:none; border:0 none;}
+.btns .prev { position:absolute; top:50%; left:20px; }
+.btns .next { position:absolute; top:50%; right:20px;}
+
+/* 버튼 구조 */
+.inner_banner .btn_slide { position:absolute; bottom:32px; left:50%; margin-left:-170px;}
+.inner_banner .btn_slide a { width:14px; height:14px; margin:0 10px; }
+.inner_banner .btn_slide a span { width:10px; height:10px; margin:-5px 0 0 -5px; background-color:#fff;}
+.inner_banner .btn_slide a:hover span {  width:13px; height:13px; margin:-6px 0 0 -6px; 
+background-color:#301d17;}
+.inner_banner .btn_slide .active span { width:13px; height:13px; margin:-6px 0 0 -6px; 
+background-color:#301d17;}
+.br_event { width:1200px; height:721px; margin:0 auto;}
+.br_event p { padding:100px 0 50px; text-align:center; }
+.list_event { overflow:hidden; position:relative; width:1200px; } 
+.list_event .swipe { width:7100px; height:465px; }
+.swipe .list_product { width:1200px; }
+.swipe .list_product li { float:left; width:25%; height:465px; }
+.swipe .list_product li a { text-decoration:none;}
+.swipe .list_product li .period { margin:11px 0; color:#948780;}
+.swipe .list_product li span { display:block; margin:22px 0 8px 0; }
+.swipe .list_product li strong { color:#2f231c; font-size:17px; line-height:23px;}
+.box1 {  position:absolute; left:0; top:0;}
+.box2 {  position:absolute; left:1200px; top:0;} 
+.box3 {  position:absolute; left:2400px; top:0;}
+
+.br_menu { height:1157px; background:url('../images/main/bg_menu.jpg') no-repeat 50% 0;}
+.br_menu h3 { padding-top:78px; text-align:center;}
+.br_menu .list_menu { position:relative; width:1200px; margin:0 auto; height:1066px;
+background:url('../images/main/img_menu_list.png') 50% 0;}
+.br_menu .list_menu h4{ font-size:0; text-indent:-5000px; padding:0; margin:0;}
+.br_menu .list_menu p{ font-size:0; text-indent:-5000px; padding:0; margin:0;}
+.br_menu .list_menu .icecream { position:absolute; top:78px; left:323px; }
+.br_menu .list_menu .icecream a { display:block; width:395px; height:302px; }
+.br_menu .list_menu .icecreamcake { position:absolute; top:78px; left:756px; }
+.br_menu .list_menu .icecreamcake a { display:block; width:276px; height:472px; }
+.br_menu .list_menu .baverage { position:absolute; top:418px; left:121px; }
+.br_menu .list_menu .baverage a { display:block; width:230px; height:366px;}
+.br_menu .list_menu .coffee { position:absolute; top:418px; left:389px; }
+.br_menu .list_menu .coffee a { display:block; width:329px; height:292px; }
+.br_menu .list_menu .dessert { position:absolute; top:749px; left:389px; }
+.br_menu .list_menu .dessert a { display:block; width:329px; height:177px; }
+.br_menu .list_menu .gift { position:absolute; top:588px; left:756px; }
+.br_menu .list_menu .gift a { display:block; width:276px; height:183px; }
+
+.br_storedelivery { width:1200px; height:547px; margin:0 auto; }
+.br_storedelivery h3 { padding:95px 0 50px; text-align:center;}
+.br_storedelivery .box_store { float:left; width:50%;}
+.br_storedelivery .box_delivery { float:left; width:50%; } 
+.br_sns { width:1200px; margin:0 auto;}
+.br_sns p { text-align:center; padding-bottom:26px;}
+.br_sns .sns { overflow:hidden; width:320px; padding-bottom:35px; margin:0 auto;}
+.br_sns .sns li { padding:0 9px;}
+.br_sns .list_product { overflow:hidden; width:1200px; margin:0 auto;}
+.br_sns .list_product li { width:16.666%; float:left; } 
+.br_sns .list_product li a img { display:block; width:100%; }
